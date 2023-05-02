@@ -1,5 +1,5 @@
 const allowedOrigins = require('./allowedOrigins')
-
+// remove or not origin fot tools like postman not to reach the application 
 const corsOptions = {
     origin: (origin, callback) => {
         if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
