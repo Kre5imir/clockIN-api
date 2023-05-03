@@ -1,5 +1,5 @@
 const allowedOrigins = [
-    'https://clockin.onrender.com',
+    'https://clockin.onrender.com/'
     
 ]
 
